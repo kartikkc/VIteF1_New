@@ -405,7 +405,7 @@ a:focus {
 
 .team_section {
   position: relative;
-  /* padding-top: 45px; */
+  padding-top: 25px;
 }
 
 .team_section .box {
