@@ -15,4 +15,4 @@
   Added The Review section
   Changed the Footter
 
-<a href="https://kartikkc.github.com/ViteF1_New/index.html">Check this out ❤️</a>
+<a href="https://kartikkc.github.io/ViteF1_New/index.html">Check this out ❤️</a>
