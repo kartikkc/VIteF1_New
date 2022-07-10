@@ -405,7 +405,7 @@ a:focus {
 
 .team_section {
   position: relative;
-  padding-top: 45px;
+  /* padding-top: 45px; */
 }
 
 .team_section .box {
@@ -415,7 +415,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 45px;
+  /* margin-top: 45px; */
   border-radius: 15px;
   padding: 20px 15px;
   background-color: #222831;
