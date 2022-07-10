@@ -1,9 +1,6 @@
 # ViteF1_New
 
 
-<img src ="CSS and images/Untitled1.png">
-
-
 ## Modified my Last project on F1
 
 ### Included Bootstrap
@@ -17,3 +14,5 @@
   Added A new Form of Book A Ticket 
   Added The Review section
   Changed the Footter
+
+<a href="https://kartikkc.github.com/ViteF1_New">Check this out ❤️</a>
