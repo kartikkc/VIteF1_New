@@ -485,11 +485,11 @@ a:focus {
   height: 215px;
   border-radius: 0 0 0 45px;
   margin: -1px;
-  /* padding: 25px; */
+  /* padding: .5px; */
  
 }
 .driver_section .box .img-box img {
-  max-width: 200%;
+  max-width: 250%;
   max-height: 125%;
   -webkit-transition: all .2s;
   transition: all .2s;
