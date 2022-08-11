@@ -68,3 +68,6 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+$("#tickets").submit(function(e) {
+    e.preventDefault();
+});
