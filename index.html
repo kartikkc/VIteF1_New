@@ -15,12 +15,16 @@
   <link rel="shortcut icon" href="images/favicon.png" type="">
 
   <title> Vite F1 </title>
-
+  <!-- Drivers section css -->
+  <link rel="stylesheet" href="css/drivers.css">
+  <!-- Teams Section css  -->
+  <link rel="stylesheet" href="css/teams.css">
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
     integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
@@ -36,7 +40,7 @@
 </head>
 
 <body>
- 
+
   <div class="hero_area">
     <div class="bg-box">
       <img src="CSS and images/home_imgs/image11.jpg" alt="">
@@ -121,29 +125,32 @@
                       Vite F1
                     </h1>
                     <p>
-                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. 
+                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                      quisquam esse error unde.
                       Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
                     </p>
-                  <div class="btn-box">
+                    <div class="btn-box">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-7 col-lg-6 ">
-                <div class="detail-box">
-                  <h1>
-                    Vite F1
-                  </h1>
-                  <p>
-                    Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. 
-                    Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
-                  </p>
-                  <div class="btn-box">
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Vite F1
+                    </h1>
+                    <p>
+                      Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam
+                      quisquam esse error unde.
+                      Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.
+                    </p>
+                    <div class="btn-box">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -151,24 +158,23 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
-    <div class="container">
-          <ol class="carousel-indicators">
-            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-            <li data-target="#customCarousel1" data-slide-to="1"></li>
-            <li data-target="#customCarousel1" data-slide-to="2"></li>
-          </ol>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
+  <div class="container">
+    <ol class="carousel-indicators">
+      <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+      <li data-target="#customCarousel1" data-slide-to="1"></li>
+      <li data-target="#customCarousel1" data-slide-to="2"></li>
+    </ol>
+  </div>
+  </div>
+  </section>
+  <!-- end slider section -->
   </div>
 
   <!-- about Teams section -->
 
   <section class="about_section_team layout_padding">
-    <div class="container  ">
+    <div class="container">
 
       <div class="row">
         <div class="col-md-6 ">
@@ -205,31 +211,13 @@
   </div>
 
   <section class="team_section layout_padding-bottom">
-    <div class="team_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
+    <div class="container">
+      <div class="carousel-wrap row ">
+        <div class="owl-carousel team_owl-carousel">
+          <div class="item">
+            <div class="box">
               <div class="img-box">
-                <img src="CSS and images/team_logos/mcds_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Mercedes Petronas F1
-                </h2>
-                <h6>
-                  <span>Construtors Title : 8 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/ferri_team_logo.jpg" alt="">
+                <img src="CSS and images/team_logos/ferri_team_logo.jpg" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <h2>
@@ -244,19 +232,28 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team_section layout_padding-bottom">
-    <div class="team_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
+          <div class="item">
+            <div class="box">
               <div class="img-box">
-                <img src="CSS and images/team_logos/rbl_team_logo.jpg" alt="">
+                <img src="CSS and images/team_logos/mcds_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/rbl_team_logo.jpg" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <h2>
@@ -271,17 +268,125 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6  ">
-            <div class="box ">
+          <div class="item">
+            <div class="box">
               <div class="img-box">
-                <img src="CSS and images/team_logos/mclrn_team_logo.jpg" alt="">
+                <img src="CSS and images/team_logos/mclrn_team_logo.jpg" alt="" class="box-img">
               </div>
               <div class="detail-box">
                 <h2>
                   McLaren Racing
                 </h2>
                 <h6>
-                  <span>Construtors Title : 20 </span>
+                  <span>Construtors Title : 20</span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/haas_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/alfa_tauri_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/alfa_rmeo_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/astn_mrtn_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/alpn_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
+                </h6>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="CSS and images/team_logos/wllam_team_logo.jpg" alt="" class="box-img">
+              </div>
+              <div class="detail-box">
+                <h2>
+                  Mercedes Petronas F1
+                </h2>
+                <h6>
+                  <span>Construtors Title : 8 </span>
                 </h6>
                 <a href="">
                   Read More
@@ -293,142 +398,6 @@
       </div>
     </div>
   </section>
-
-  <section class="team_section layout_padding-bottom">
-    <div class="team_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/haas_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Haas F1 team
-                </h2>
-                <h6>
-                  <span>Construtors Title : 0 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/alfa_tauri_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Scuderia Alpha Tauri
-                </h2>
-                <h6>
-                  <span>Construtors Title :0 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team_section layout_padding-bottom">
-    <div class="team_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/alfa_rmeo_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Alfa Romeo Racing
-                </h2>
-                <h6>
-                  <span>Construtors Title : 0 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/astn_mrtn_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Aston martin Cognizant
-                </h2>
-                <h6>
-                  <span>Construtors Title :0 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="team_section layout_padding-bottom">
-    <div class="team_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/alpn_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Alpine F1 team
-                </h2>
-                <h6>
-                  <span>Construtors Title : 0 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="CSS and images/team_logos/wllam_team_logo.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h2>
-                  Williams Racing
-                </h2>
-                <h6>
-                  <span>Construtors Title : 20 </span>
-                </h6>
-                <a href="">
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- end team section -->
 
   <!-- about drivers section -->
@@ -474,502 +443,428 @@
       </div>
 
       <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Lewis-Hamilton.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Lewis Hamilton
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Mercedes-Petronas
-                    </h6>
+        <div class="">
+          <div class="carousel-wrap row">
+            <div class="owl-carousel team_owl-carousel">
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Lewis-Hamilton.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/George-Rusell.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    George Rusell
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Mercedes-Petronas
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/George-Rusell.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/max-verstappen.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Max Verstappen
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      RedBull Racing
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/max-verstappen.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Sergio-Perez.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Sergio Perez
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      RedBull Racing
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Sergio-Perez.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all fries">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Charles-Leclerc.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Charles Leclerc
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Scuderia Ferrari
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Charles-Leclerc.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Carlos-Sainz-Jr..jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Carlos Sainz
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Scuderia Ferrari
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Carlos-Sainz-Jr..jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Lando-Norris.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Lando Norris
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      McLaren Racing
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Daniel-Riccardo.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Daniel-Riccardo.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Daniel Riccardo
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      McLaren Racing
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Lando-Norris.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Pierre-Gasly.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Peirre Gasly
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Aplha Tauri
-                    </h6>
-
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Lance-Stroll.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Yuki-Tsunoda.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Yuki Tsuonda
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Alpha Tauri
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Sebastain-Vettel.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Valtteri-Bottas.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Valtteri Bottas
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Alfa Romeo
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Kevin-magnussen.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Zhou-Guanyu.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Zhou Guanyu
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Alfa Romeo
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Mick-Schumacher.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Lance-Stroll.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Lance Stroll
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Aston Martin Cognizant
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Fernando-Alonso.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Sebastain-Vettel.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Sebastain Vettel
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Aston Martin Cognizant
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Esteban-Ocon.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Kevin-magnussen.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Kevin Maggnusen
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Haas F1 Team
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Nicholas-Latifi.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Mick-Schumacher.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Mick Schummacher
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Haas F1 Team
-                    </h6>
+              <div class="item">
+                <div class="">
+                  <div class="box">
+                    <div>
+                      <div class="img-box">
+                        <img src="CSS and images/driver_images/Alex-Albon.jpg" alt="">
+                      </div>
+                      <div class="detail-box">
+                        <h5>
+                          Sir, Lewis Hamilton
+                        </h5>
+                        <p>
+                          Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem
+                          repellendus
+                          sed eaque
+                        </p>
+                        <div class="options">
+                          <h6>
+                            Mercedes-Petronas
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Nicholas-Latifi.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Nicholas Latifi
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Williams Racing
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Alex-Albon.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Alexander Albon
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Williams Racing
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Fernando-Alonso.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Fernando Alonso
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Alpine Racing
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Esteban-Ocon.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Esteban Ocon
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Alpine Racing
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="CSS and images/driver_images/Carlos-Sainz-Jr..jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Nico Hulkenberg
-                  </h5>
-                  <p>
-                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
-                    sed eaque
-                  </p>
-                  <div class="options">
-                    <h6>
-                      Aston Martin Cognizant
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
   </section>
 
-  <!-- end food section -->
+  <!-- end drivers section -->
 
   <!-- about section -->
   <section class="about_section layout_padding">
@@ -1119,7 +1014,6 @@
       </div>
     </div>
   </section>
-
   <!-- end client section -->
   <!-- footer section -->
   <footer class="footer_section">
