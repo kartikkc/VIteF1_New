@@ -33,7 +33,6 @@
    
   }
   .driver_section .box .img-box img {
-    margin-top: 3rem;
     max-width: 300%;
     max-height: 125%;
     -webkit-transition: all .2s;
@@ -51,7 +50,6 @@
     background-color: #e69c00;
   }
   .driver_section .box .detail-box h5 {
-    margin-top: 2px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
   }
@@ -62,11 +60,6 @@
   
   .driver_section .box .detail-box h6 {
     margin-top: 10px;
-  }
-
-  .driver_section .box:hover h5{
-    backdrop-filter: blur(10px);
-    color:#e69c00
   }
   
   .driver_section .box .options {
@@ -82,14 +75,14 @@
     margin-top:35px ;
   }
   
-  /* .driver_section .box:hover  {
+  .driver_section .box:hover  {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
   .driver_section .box:hover .img-box img  {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-  } */
+  }
   .driver_section .owl-carousel .owl-nav {
     display: -webkit-box;
     display: -ms-flexbox;
